@@ -23,7 +23,7 @@ jobs:
       run: yarn install
 
     - name: Build
-      run: yarn build
+      run: npm build
 
     - name: Test
       run: yarn test
