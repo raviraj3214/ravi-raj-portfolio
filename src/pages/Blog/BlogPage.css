@@ -27,13 +27,6 @@
 }
 
 
-.blog--search {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .blog--input {
     width: 30%;
     height: 2.75rem;
