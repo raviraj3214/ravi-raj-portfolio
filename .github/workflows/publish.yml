@@ -29,6 +29,9 @@ jobs:
       run: |
         mkdir deploy
         cp -r build/* deploy/
+
+    - name: Navigate to Build Directory
+      run: cd deploy
     
     - name: Commit and Push Changes
       run: |
